@@ -17,7 +17,6 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
   }
  
 
@@ -54,12 +53,14 @@ header .logo {
     text-shadow: #ffffff 1px 1px;
 }
 
-header .navbar {
-    padding: 0;
+ul.navbar  {
+    display: flex;
+    padding: 10px;
     margin: 0;
+    list-style: none;
 }
 
-header .navbar a{
+header .navbar li{
     color: #000;
     text-decoration: none;
     font-weight: 500;
@@ -67,7 +68,12 @@ header .navbar a{
     padding: 2px 15px;
     border-radius: 20px;
     transition: .3s;
-    transition-property: background;
+    transition-property: background;  
+}
+
+header .navbar li a{
+    text-decoration: none;
+    color: #000;
 }
 
 header .navbar a:not(:last-child) {
@@ -75,7 +81,8 @@ header .navbar a:not(:last-child) {
 }
 
 header .navbar a:hover{
-    background: #fff;
+    color: #fff;
+    transition: .3s;
 }
 
 .content {
@@ -193,7 +200,7 @@ header .navbar a:hover{
 
 @media screen and (max-width: 767px) {
     header {
-      padding: 1rem;
+      padding-top: 1rem;
       flex-direction: column;
     }
     
@@ -210,21 +217,21 @@ header .navbar a:hover{
         margin-top: 0;
       }
     
-    header .navbar {
-      display: none;
+
+    ul.navbar{
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(233, 72, 72, 0.5);
+        padding-left: 5%;
     }
     
-    header .navbar.active {
-      display: block;
-      margin-top: .3rem;
-    }
-    
-    header .navbar a {
-      display: block;
+    header .navbar li {
+        font-size: 1.5rem;
       margin-bottom: .3rem;
     }
 
-    .content h2 {
+        .content h2 {
         text-align: center;
     }
 
@@ -263,6 +270,10 @@ header .navbar a:hover{
 
 /* Media query for screens between 768px and 1024px (e.g., tablets) */
 @media (min-width: 768px) and (max-width: 1023px) {
+    .menu-icon {
+        display: none;
+    }
+    
     section {
         padding: 1rem;
     }
@@ -279,6 +290,10 @@ header .navbar a:hover{
 
 /* Media query for screens larger than 1024px (e.g., desktops) */
 @media (min-width: 1024px) {
+    .menu-icon {
+        display: none;
+    }
+
     section {
         padding: 2rem;
     }
