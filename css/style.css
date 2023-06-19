@@ -260,7 +260,7 @@ header .navbar a:hover{
 
 @media (orientation: portrait) {
     section {
-        background: url('/images/vertarias-bg-portrait.png') no-repeat;
+        background: url('../images/vertarias-bg-portrait.png') no-repeat;
         background-size: cover;
         background-position: top center;
     }
