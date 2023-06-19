@@ -135,8 +135,7 @@ header .navbar a:hover{
 .media-icons {
     display: flex;
     justify-content: left;
-    align-items: left;
-    margin-left: 6rem;
+    margin-left: 3rem;
     margin-bottom: 30px;
 }
 
@@ -153,7 +152,7 @@ header .navbar a:hover{
 }
 
 .media-icons a:hover{
-    color: #960202;
+    color: #ffffff;
     transform: scale(1.5);
 
 }
@@ -178,7 +177,7 @@ header .navbar a:hover{
 }
 
 .vert-icons a:hover{
-    color: #960202;
+    color: #ffffff;
     transform: scale(1.5);
 
 }
@@ -223,6 +222,37 @@ header .navbar a:hover{
       display: block;
       margin-bottom: .3rem;
     }
+
+    .content h2 {
+        text-align: center;
+    }
+
+    .content .description p{
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+        line-height: 3rem;
+    }
+
+    .media-icons {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    
+    .media-icons a{
+        position: relative;
+        color: #fff;
+        font-size: 25px; 
+        transition: .3s;
+        transition-property: transform;
+    }
+    
+    /* .media-icons a:not(:last-child){
+        margin-right: 60px;
+    } */
+    
   }
   
 
