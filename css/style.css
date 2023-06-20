@@ -316,3 +316,61 @@ header .navbar a:hover{
         background-position: top center;
     }
   }
+
+  /* booking.html css */
+
+  /* Add these styles to your existing CSS file */
+
+.contact-form form {
+    margin-top: 20px;
+  }
+  
+  .contact-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ff4040;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #c51515;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #c51515;
+  }
+  
