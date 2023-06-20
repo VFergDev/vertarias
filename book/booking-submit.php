@@ -12,3 +12,4 @@
         mail($mailTo, $subject, $txt, $headers);
         header("Location: booking.html?mailsend");
     }  
+?>

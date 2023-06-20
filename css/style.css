@@ -365,14 +365,12 @@ header .navbar a:hover{
     text-wrap: nowrap;
     align-items: flex-start;
     text-align: center;
-    cursor: default;
     box-sizing: border-box;
     background-color: #000;
     color: #fff;
-    padding: 1px 6px;
-    border-width: 2px;
+    padding: 2px 6px;
+    border-width: px;
     border-style: outset;
-    border-image: initial;
 }
 
 
