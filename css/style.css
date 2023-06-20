@@ -180,7 +180,7 @@ header .navbar a:hover{
 }
 
 .vert-icons a:not(:last-child){
-    margin-right: 60px;
+    margin: 1rem;
 }
 
 .vert-icons a:hover{
@@ -358,6 +358,24 @@ header .navbar a:hover{
     padding-top: 10px;
   }
   
+  input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space-collapse: preserve;
+    text-wrap: nowrap;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+
+
   button[type="submit"] {
     background-color: #c51515;
     color: #fff;
